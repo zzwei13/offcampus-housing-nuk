@@ -75,11 +75,11 @@ OFFCAMPUS-HOUSING-NUK/
 ---
 ## 🖼 系統畫面截圖
 
-### 🔐 登入畫面
-![login](static/img/login_page.png)
-
 ### 🏠 首頁
 ![home](static/img/home.png)
+
+### 🔐 登入畫面
+![login](static/img/login_page.png)
 
 ### 👤 使用者個人頁面
 ![profile](static/img/user_profile_page.png)
@@ -87,7 +87,11 @@ OFFCAMPUS-HOUSING-NUK/
 ### 📋 訪視紀錄瀏覽
 ![record](static/img/view_record.png)
 
-### ⚙️ 帳號管理介面
+### 📋 房東上傳租屋紀錄瀏覽
+![record](static/img/landlord_page.png)
+
+
+### ⚙️ 可使用以下不同身分帳號做測試
 ![account](static/img/account.png)
 
 ---
