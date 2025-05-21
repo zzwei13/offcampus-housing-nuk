@@ -1,0 +1,59 @@
+/* styles.css */
+
+.navbar-brand {
+    text-shadow: -1px -1px 0 #efe4d1,
+                 1px -1px 0 #efe4d1,
+                 -1px 1px 0 #efe4d1,
+                 1px 1px 0 #efe4d1;
+}
+
+/* 黃色導航列功能按鈕 */
+.nav-link {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.nav-link:hover {
+    background-color: #e4c0a7;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.nav-link:active {
+    background-color: #a8907f;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* main藍色功能按鈕 */
+.button-link {
+    display: block; 
+    width: 200px;
+    padding: 10px 20px;
+    margin: 10px auto; /* Center buttons with margin auto */
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.button-link:hover {
+    background-color: #0056b3;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.button-link:active {
+    background-color: #004494;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.custom-mt {
+    margin-top: 10vh; /* 調整按鈕跟頂端的距離(數字越小越靠近上面) */
+}

@@ -1,0 +1,5 @@
+房東頁面landlordPage.php:房東登入後會進到這個頁面
+已上傳租屋資訊頁面RentInfomation.php:顯示該名房東過去上傳的租屋資訊，可查看、新增、刪除租屋資訊
+租屋資訊上傳頁面rentInformationUpload.php:輸入要上傳的租屋資訊後上傳
+租屋資訊頁面rentInformationDetail.php:顯示該筆租屋資訊詳細資料，可編輯或刪除
+租屋資訊編輯頁面rentInformationEdit.php:編輯過去上傳的租屋資訊，只能編輯文字相關的部分，不能修改圖片，如要修改圖片要將原本租屋資訊刪除再上傳新的

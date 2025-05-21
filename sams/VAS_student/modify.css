@@ -1,0 +1,30 @@
+.container2 {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+
+input[type="text"],
+input[type="number"],
+input[type="radio"] {
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.radio-group {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.radio-group label {
+    margin-right: 20px;
+}

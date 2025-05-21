@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Login</title>
+  <link href="static/css/theme.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <main class="main" id="top">
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top py-3 d-block" data-navbar-on-scroll="data-navbar-on-scroll">
+        <div class="container">
+          <a class="navbar-brand" href="#">租屋管理系統SAMS</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"> </span></button>
+          <div class="collapse navbar-collapse border-top border-lg-0 mt-4 mt-lg-0" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto pt-2 pt-lg-0 font-base">
+              <li class="nav-item px-2"><a class="nav-link active" aria-current="page" href="#">首頁</a></li>
+            </ul>
+            <div id="userStatus" class="ms-lg-2">
+              <a class="btn btn-primary" href="login.html" role="button">登入</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+    <section class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <h2 class="text-center mt-5">Login</h2>
+          <form id="loginForm" action="login.php" method="POST">
+            <div class="mb-3">
+              <label for="username" class="form-label">Username</label>
+              <input type="text" class="form-control" id="username" name="username" required>
+            </div>
+            <div class="mb-3">
+              <label for="password" class="form-label">Password</label>
+              <input type="password" class="form-control" id="password" name="password" required>
+            </div>
+            <div class="mb-3">
+                <label for="permissionLevel" class="form-label">Permission Level</label>
+                <select class="form-select" id="permissionLevel" name="permissionLevel" required>
+                  <option value="" disabled selected>選擇身分別</option>
+                  <option value="學生">學生</option>
+                  <option value="老師">老師</option>
+                  <option value="房東">房東</option>
+                  <option value="管理員">管理員</option>
+                </select>
+              </div>
+              
+            <button type="submit" class="btn btn-primary">登入</button>
+          </form>
+          <div id="errorMessage" class="text-danger mt-3" style="display: none;">帳號、密碼或身分別錯誤，請重新輸入.</div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="static/js/theme.js"></script>
+  <script>
+    // 檢查 URL 中是否包含 error=1，如果是，則顯示錯誤消息
+    document.addEventListener("DOMContentLoaded", function() {
+      var urlParams = new URLSearchParams(window.location.search);
+      var error = urlParams.get('error');
+      if (error === '1') {
+        document.getElementById('errorMessage').style.display = 'block';
+      }
+    });
+  </script>
+  <link href="static/css/css2.css" rel="stylesheet">
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+RIES資料夾：管理員
+RS資料夾：學生、導師
+
+
+RIES:
+login -> management -> ad_management管理租屋資訊 -> ad_review審核 -> ad_pass通過/不合格
+                                                -> ad_view檢視 -> ad_delete刪除
+                    -> post_delete刪除文章 -> post_comment查看留言
+RS:
+login -> RS -> forum交流平台 -> post發文
+                            -> comment查看留言
+            -> rental_info查看租屋資訊 -> rental_detail細節
