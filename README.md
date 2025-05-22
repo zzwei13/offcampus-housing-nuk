@@ -5,10 +5,6 @@
 
 ---
 
-
-
----
-
 ## System Overview
 
 本系統 SAMS（Student Accommodation Management System）可協助導師管理校外住宿學生資料與訪視紀錄，同時整合租屋資訊供查詢，功能分為五個子系統：
