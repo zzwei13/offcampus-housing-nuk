@@ -9,13 +9,13 @@
 
 ---
 
-## 🖥️ System Overview
+## System Overview
 
 本系統 SAMS（Student Accommodation Management System）可協助導師管理校外住宿學生資料與訪視紀錄，同時整合租屋資訊供查詢，功能分為五個子系統：
 
 ---
 
-### 🔐 Subsystem SAS - 系統管理
+### Subsystem SAS - 系統管理
 
 管理者用於登入驗證與帳號管理。
 - Login Management：使用者登入驗證
@@ -24,7 +24,7 @@
 
 ---
 
-### 🏠 Subsystem RS - 租屋資訊平台
+### Subsystem RS - 租屋資訊平台
 
 提供一般學生使用，功能包含租屋交流與刊登：
 - Account & Profile Edit：修改帳號與基本資料
@@ -34,7 +34,7 @@
 
 ---
 
-### 🛠 Subsystem RIES - 租屋資訊管理者
+### Subsystem RIES - 租屋資訊管理者
 
 管理租屋資訊與用戶發布的內容：
 - Ad Management：審核、搜尋、刪除廣告
@@ -42,7 +42,7 @@
 
 ---
 
-### 🧾 Subsystem VAS - 訪視資料管理
+### Subsystem VAS - 訪視資料管理
 
 導師/系統管理員用來管理住宿與訪視紀錄：
 - Visit Record Management：整合住宿與訪視紀錄查詢
@@ -51,34 +51,34 @@
 
 ---
 
-### 🗄️ Subsystem DBS - 資料庫存取系統
+### Subsystem DBS - 資料庫存取系統
 
 統一處理所有子系統與 MySQL 的資料存取請求，進行資料的新增、修改、刪除與查詢。
 
 ---
 ## 🖼 系統畫面截圖
 
-### 🏠 首頁
+### 首頁
 ![home](static/img/home.png)
 
-### 🔐 登入畫面
+### 登入畫面
 ![login](static/img/login_page.png)
 
-### 👤 使用者個人頁面
+### 使用者個人頁面
 ![profile](static/img/user_profile_page.png)
 
-### 📋 訪視紀錄瀏覽
+### 訪視紀錄瀏覽
 ![record](static/img/view_record.png)
 
-### 📋 房東上傳租屋紀錄瀏覽
+### 房東上傳租屋紀錄瀏覽
 ![record](static/img/landlord_page.png)
 
 
-### ⚙️ 可使用以下不同身分帳號做測試
+### 可使用以下不同身分帳號做測試
 ![account](static/img/account.png)
 
 ---
-## 🚀 Usage
+## Usage
 1. 安裝 XAMPP / WAMP 或其他 PHP+MySQL 環境
 2. 將本專案資料夾放入相應目錄
 3. 使用 phpMyAdmin 匯入 `sams.sql` 
@@ -88,7 +88,7 @@
 
 ---
 
-## ⚙️ Technologies Used
+## 使用技術
 
 - PHP + MySQL
 - phpMyAdmin for DB management
@@ -96,9 +96,9 @@
 
 ---
 
-## 🏫 Project Info
+## 🏫 作者資訊
 
-- **University**：National University of Kaohsiung（國立高雄大學）
+- **University**：黎子崴（國立高雄大學）
 - **Course**：Software Engineering / 軟體工程
 - **Team Project**：多人合作專案
 
