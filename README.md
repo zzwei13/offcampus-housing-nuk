@@ -16,7 +16,7 @@
 - Account Management：帳號新增、修改、刪除
 - Basic Information Management：檢視與修改基本資料
 
----
+
 
 ### Subsystem RS - 租屋資訊平台
 
@@ -26,7 +26,6 @@
 - Rental Review：發表租屋評價
 - Rental Exchange：租屋經驗交流發文/留言
 
----
 
 ### Subsystem RIES - 租屋資訊管理者
 
@@ -34,7 +33,7 @@
 - Ad Management：審核、搜尋、刪除廣告
 - Forum Moderation：刪除租屋交流文章
 
----
+
 
 ### Subsystem VAS - 訪視資料管理
 
@@ -43,7 +42,6 @@
 - Visit Result Edit：新增與編輯訪視結果
 - Student Accommodation Info：編輯住宿與自主管理檢視資料
 
----
 
 ### Subsystem DBS - 資料庫存取系統
 
